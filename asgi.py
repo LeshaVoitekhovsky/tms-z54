@@ -12,7 +12,7 @@ async def application(scope, receive, send) -> None:
             "headers": [
                 [b"content-type", b"application/json"],
             ],
-            "status": 200,
+            "status": 500,
             "type": "http.response.start",
         }
     )
